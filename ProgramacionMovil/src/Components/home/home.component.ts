@@ -10,7 +10,17 @@ export class HomeComponent implements OnInit {
   constructor(private router: Router) { }
 
   ngOnInit(): void {
+    console.log("inicia la pagina")
+
   }
+
+  navegacion1()
+  {
+    this.router.navigate(['web2'])
+  }
+
+
+
   navPg2()
   {
     this.router.navigate(['pagina2']);
