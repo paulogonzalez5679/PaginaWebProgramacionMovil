@@ -1,8 +1,8 @@
-import { HomeComponent } from './../Components/home/home.component';
-import { Pagina2Component } from './../Components/pagina2/pagina2.component';
+import { HomeComponent } from './Components/home/home.component';
+import { Pagina2Component } from './Components/pagina2/pagina2.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { Pagina3Component } from 'src/Components/pagina3/pagina3.component';
+import { Pagina3Component } from 'src/app/Components/pagina3/pagina3.component';
 
 
 
